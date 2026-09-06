@@ -1,0 +1,38 @@
+КАРТА ИСПОЛНЕНИЯ ЭТАЛОНА (первые 52 с, слуховой разбор + замер)
+ЗАГЛАВНЫЕ = слово, на которое певица налегает. Справа — характер подачи.
+
+00:00.1 | I ran into my ex-husband's NEW wife at TARGET      | fast
+00:03.4 | she was thirty-FOUR                                 | held
+00:04.9 | she looked at me like she felt SORRY for me         | falling
+00:07.9 | that was in MARCH                                   | clipped
+00:09.1 | Mark and I were married SIXTEEN YEARS               | held
+00:11.4 | then he left for someone from his OFFICE            | falling
+00:13.3 | cliché, I know                                      | fast
+00:14.7 | She's the kind of PRETTY that doesn't have to TRY yet | rising
+00:18.1 | because TIME hadn't SHOWN UP yet                    | slow
+00:20.9 | By MARCH, I WASN'T FINE                             | pushed
+00:23.0 | I looked like I'd aged FIVE YEARS in SIX MONTHS      | pushed
+00:25.9 | STRESS will do that                                 | falling
+00:27.4 | CRYING every night will do that                     | fast
+00:29.0 | HOLDING your kids together will do that             | pushed
+00:31.2 | I was at TARGET that Saturday                       | fast
+00:32.7 | LEGGINGS no makeup HAIR in a bun                    | fast
+00:34.9 | STARING at another cream that WOULDN'T WORK         | fast
+00:37.1 | I'd already tried EVERY SINGLE ONE                  | held
+00:39.3 | Then I heard her VOICE one aisle over               | slow
+00:41.5 | knew it was HER before she came AROUND              | held
+00:43.9 | she SAW me                                          | soft
+00:45.3 | and I WATCHED her FACE do the THING                 | slow
+00:48.3 | FOREHEAD CHEEKS JAW                                 | clipped
+00:50.0 | TWO SECOND SCAN that sting                          | falling
+
+ПРАВИЛО ПЕРЕНОСА
+Ударное слово эталона стоит в сильной позиции строки — чаще в конце.
+В украинском порядок слов свободный: выносить смысловое ударение в ту же позицию.
+Пример: «I ran into my ex-husband's new wife at TARGET» — ударное в конце,
+поэтому «Нову дружину Андрія я зустріла в Єві», а не «В Єві я зустріла...».
+
+ТЕМП ЗАДАЁТСЯ ДЛИНОЙ СТРОКИ
+Suno не читает теги про темп, но читает длину. Целевые слоги украинской строки =
+слогов_эталона_в_секунду × длительность_строки × 1.13. Скрипт delivery.py считает это
+и показывает, где текст мешает нужному разгону или торможению.

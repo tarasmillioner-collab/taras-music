@@ -1,0 +1,23 @@
+Style-промпт, проверенный на прогоне (Suno V5_5, cover, audioWeight 0.9, DUR 210):
+
+Ukrainian female vocal, bright confident storytelling voice with energy, conversational
+talk-singing, clear diction, correct Ukrainian word stress, native Ukrainian pronunciation,
+sung in Ukrainian, acoustic narrative folk-pop, 103 bpm, F MAJOR, bright uplifting harmony,
+warm and hopeful, no minor key, no melancholy, song starts instantly on beat one with no
+silence, rhythmic fingerpicked guitar from the first second, crisp transients, no rap, no autotune
+
+Обязательные элементы, каждый закрывает найденную дыру:
+- «F MAJOR ... no minor key, no melancholy» — интро уходило в минор, отсюда «грустно»
+- «starts instantly on beat one with no silence» — клоны начинались через секунду тишины
+- «103 bpm» — без явного темпа Suno даёт 148, со словом unhurried 71
+- «sung in Ukrainian ... correct Ukrainian word stress» — иначе русское произношение
+- «no rap, no autotune» — иначе речитатив и робот
+
+Теги секций в тексте (простые, не точечные):
+[Intro — starts instantly on beat one, no silence, bright MAJOR chords, fingerpicked guitar]
+[Verse — soft drums enter, conversational, no pause between lines]
+[Verse — bass enters, steady, still talk-sing]
+[Stripped — drums out, voice and guitar, quieter]
+[Build — full band returns, light vocal doubling, brighter]
+[Breakdown — drums and bass out, voice alone over guitar]
+[Outro — beat returns, spoken, three short lines]
